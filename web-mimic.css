@@ -1,0 +1,268 @@
+html, body{
+  margin:0;
+  padding:0;
+  background-color:#333;
+}
+
+  .head, .content,{
+  width:960px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align:left;
+  font-size:20px;
+  font-family:helvetica;
+  padding-top: 15px;
+}
+
+  .head {
+    height:100vh;
+    background-color: #141414;
+    color:white;
+  }
+
+  .content {
+    height:2000px;
+    background-color: white;
+    padding-top: 10px;
+
+}
+.middle {
+    width:700px;
+    height:2000px;
+    margin:0 auto;
+    text-align: left;
+}
+.top-half {
+  height:388px;
+  width:690px;
+  margin:0 auto;
+}
+
+.person{
+  display: inline-block;
+  padding-right: 20px;
+  text-align: left;
+  float:left;
+  font-family:helvetica;
+  font-size:18px;
+}
+
+
+.middle-half {
+  height:550px;
+  width:690px;
+  margin:0 auto;
+}
+
+.comp-logo {
+  height:219px;
+  width:610px;
+  margin:0 auto;
+  
+}
+
+.last-para {
+  height:89px;
+  width:auto;
+  margin:0 auto;
+}
+
+.bottom-send {
+  height:90px;
+  width:auto;
+  margin:0 auto;
+}
+
+.bottom-logo {
+  height:118px;
+  width:615x;
+  margin:0 auto;
+}
+
+.paul-text {
+  display: inline-block;
+  float: left;
+  height:140px;
+  width:192px;
+  padding-top:12px;
+  color:grey;
+  font-size:16px
+}
+
+.justin-text {
+  display: inline-block;
+  height:140px;
+  width:192px;
+  padding-top:12px;
+  color:grey;
+  font-size:16px
+}
+
+.david-text {
+  display: inline-block;
+  height:140px;
+  width:192px;
+  padding-top:12px;
+  color:grey;
+  font-size:16px
+}
+
+.profile-image {
+  display: inline-block;
+  height:auto;
+}
+
+.comp-logo {
+  width:auto;
+}
+
+.comp-logo img{
+  padding-right: 80px;
+  float:left;
+}
+
+.bottom-send :nth-child(1){
+  border-radius:5px;
+  height:63px;
+  width:410;
+  font-size: 24px;
+  font-family: helvetica;
+  background-color: whitesmoke;
+  border:none;
+}
+
+.bottom-send :nth-child(1):focus{
+  border-radius:5px;
+  height:63px;
+  width:410;
+  font-size: 24px;
+  font-family: helvetica;
+  background-color: white;
+}
+
+.bottom-send :nth-child(2){
+  float:right;
+  background-color: #AE5CC8;
+  color:white;
+  font-size: 24px;
+  width:194;
+  height:67;
+  border-radius: 5px;
+  border:none;
+}
+
+.bottom-send :nth-child(2):hover{
+  float:right;
+  background-color:#efc7e5;
+  color:white;
+  font-size: 24px;
+  width:194;
+  height:67;
+  border-radius: 5px;
+}
+
+.top-container {
+  width:690px;
+  height:100vh;
+  margin:0 auto;
+}
+
+.mk-year{
+  text-align:left;
+  padding-top: 58px;
+  color:#A95DC8;
+  font-size: 35px;
+  font-family: 'Helvetica';
+}
+
+ .learn-how{
+   width:570px;
+   padding-top: 86px;
+   font-size: 45px;
+   font-family: helvetica;
+ }
+
+.join-over{
+  width:550px;
+  font-size:22px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.button-top input {
+  float:left;
+  height:67;
+  width:410;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: helvetica;
+  background-color: whitesmoke;
+  border:none;
+}
+
+.button-top input:focus {
+  float:left;
+  height:67;
+  width:410;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: helvetica;
+  background-color:white;
+}
+
+.button-top button{
+  height:67;
+  width:194;
+  border-radius: 5px;
+  font-size: 22px;
+  background-color:#AE5CC8;
+  border-style: none;
+  color:white;
+  margin-left: 10px;
+}
+
+.button-top button:hover{
+  height:67;
+  width:194;
+  border-radius: 5px;
+  font-size: 22px;
+  background-color:#efc7e5;
+  border-style:none;
+  color:white;
+  margin-left: 10px;
+}
+
+p{
+  font-family: helvetica;
+  font-size: 22px;
+}
+
+a{
+  color:grey;
+  font-family:helvetica;
+  font-size:22px;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:lightgrey;
+  font-family:helvetica;
+  font-size:22px;
+  text-decoration: underline;
+
+}
+
+h6{
+  font-family:helvetica;
+  color:lightgrey;
+  font-size: 15px;
+}
+
+.bottom-logo a{
+  font-family: helvetica;
+  size:12px;
+  color:lightgrey;
+  text-decoration: none;
+}
