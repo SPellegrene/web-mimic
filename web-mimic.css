@@ -14,6 +14,7 @@ h1{
   font-size:20px;
   font-family:helvetica;
   padding-top: 15px;
+  letter-spacing: 1px;
 }
 
   .head {
@@ -60,9 +61,8 @@ h1{
   height:219px;
   width:610px;
   margin:0 auto;
-  
-}
 
+}
 .last-para {
   height:89px;
   width:auto;
@@ -236,13 +236,14 @@ h1{
 
 p{
   font-family: helvetica;
-  font-size: 22px;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 a{
   color:grey;
   font-family:helvetica;
-  font-size:22px;
+  font-size:20px;
   text-decoration: underline;
 }
 
